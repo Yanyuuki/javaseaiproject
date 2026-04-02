@@ -1,6 +1,6 @@
 package com.yanyuuki.variable;
 
-public class variableDemo2 {
+public class VariableDemo2 {
     public static void main(String[] args) {
         //整形
         int a = 10;
