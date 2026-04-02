@@ -1,6 +1,6 @@
 package com.yanyuuki.variable;
 
-public class variableDemo1 {
+public class VariableDemo1 {
     public static void main(String []args){
         //变量
         int a=10;

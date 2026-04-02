@@ -1,6 +1,6 @@
 package com.yanyuuki.literal;
 
-public class literalDemo {
+public class LiteralDemo {
     public static void main(String[] args) {
         // 字面量
         printLiertal();
