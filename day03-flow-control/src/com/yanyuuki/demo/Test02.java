@@ -38,7 +38,7 @@ public class Test02 {
     }
     public static void GuessNumber2(){
         Random r=new Random();//得到一个随机数对象
-        int luckNumber =r.nextInt(100)+1;//[0,99]+1->[1,100]
+        int luckNumber =r.nextInt(100)+1;//[0,100)+1->[1,101)
         System.out.println("请输入数字：");
         Scanner sc = new Scanner(System.in);
         while(true){
