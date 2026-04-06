@@ -13,7 +13,21 @@ public class Test {
         //6.办理一张银卡，创建银卡对象，交给一个独立的业务(支付机)来完成，存款，消费
         GoldCard gc = new GoldCard("赣B54I88","Yany_uki","18271190611",5000);
         SilverCard sc = new SilverCard("粤BO0721","Yany_uki","18870793600",3000);
-        pay(gc);
+        Scanner s= new Scanner(System.in);
+        System.out.println("请选择：1.金卡 2.银卡");
+        int choice = s.nextInt();
+        switch (choice){
+            case 1:
+                pay(gc);
+                break;
+                case 2:
+                    pay(sc);
+                    break;
+                    default:
+                        System.out.println("输入错误");
+                        break;
+        }
+
     }
 
     public static void pay(Card c){
