@@ -14,6 +14,8 @@ public class Test {
         Tortoise tt=(Tortoise)t;//强制类型转换
         tt.shrinkHead();
 
+        tt.run();
+
         //有继承关系就可以强制类型转换，编译阶段不会报错
         //运行时可能会出现类型转换异常，运行阶段才会报错
         //Wolf ww=(Wolf)t;
