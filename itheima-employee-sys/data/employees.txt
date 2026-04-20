@@ -1,0 +1,2 @@
+E001|Alice|Female|18|18270790611|Finance Manager|2025-03-17|66000|Finance
+E002|Yanyuuki|Male|19|18871193600|IT Developer|2026-04-19|100000|IT

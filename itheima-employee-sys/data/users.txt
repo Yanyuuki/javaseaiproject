@@ -1,0 +1,2 @@
+admin|123|Yany_uki
+aaa|1234|aaa
